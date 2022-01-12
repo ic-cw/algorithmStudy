@@ -1,4 +1,4 @@
-package com.algorithm.bakjoon;
+package com.algorithm.bakjoon.bronze;
 
 import java.util.Scanner;
 
@@ -23,4 +23,5 @@ public class Bakjoon2920 {
         }
         System.out.println(result);
     }
+    //complete
 }

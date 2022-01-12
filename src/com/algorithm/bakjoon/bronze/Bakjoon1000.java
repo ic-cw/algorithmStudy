@@ -1,4 +1,4 @@
-package com.algorithm.bakjoon;
+package com.algorithm.bakjoon.bronze;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -14,5 +14,6 @@ public class Bakjoon1000 {
         int b = Integer.parseInt(st.nextToken());
 
         System.out.println(a + b);
+        //complete
     }
 }

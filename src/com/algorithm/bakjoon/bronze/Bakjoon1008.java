@@ -1,4 +1,4 @@
-package com.algorithm.bakjoon;
+package com.algorithm.bakjoon.bronze;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -12,5 +12,6 @@ public class Bakjoon1008 {
         Double a = Double.parseDouble(st.nextToken());
         Double b = Double.parseDouble(st.nextToken());
         System.out.println(a / b);
+        //complete
     }
 }

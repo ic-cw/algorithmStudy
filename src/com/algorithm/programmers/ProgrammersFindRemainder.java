@@ -16,8 +16,9 @@ public class ProgrammersFindRemainder {
                 count++;
             }
         }
+
         if (count > 0) {
-            answer= new int[ans.size()];
+            answer = new int[ans.size()];
         }
         for (int i = 0; i < ans.size(); i++) {
             answer[i] = ans.get(i);

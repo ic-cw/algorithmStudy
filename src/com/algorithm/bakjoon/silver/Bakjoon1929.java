@@ -1,4 +1,4 @@
-package com.algorithm.bakjoon;
+package com.algorithm.bakjoon.silver;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -31,4 +31,5 @@ public class Bakjoon1929 {
         }
         System.out.println(sb);
     }
+    //complete
 }
