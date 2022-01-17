@@ -5,20 +5,32 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.StringTokenizer;
 
-//미완성
 //OX퀴즈
 public class Bakjoon8958 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine());
-        int numberOfTestCase = Integer.parseInt(st.nextToken());
+        int numberOfTestCase = Integer.parseInt(br.readLine());
 
         List<String> testCases = new ArrayList<>();
         for (int i = 0; i < numberOfTestCase; i++) {
-            testCases.add(st.nextToken());
+            testCases.add(br.readLine());
         }
 
+        for(String a : testCases){
+            int point = 0;
+            int sum = 0;
+            String[] chars = a.split("");
+            for (String b : chars) {
+                if ("O".equals(b)) {
+                    point++;
+                } else {
+                    point = 0;
+                }
+                sum += point;
+            }
+            System.out.println(sum);
+        }
     }
 }
+//complete
